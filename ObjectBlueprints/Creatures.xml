@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <object Name="Ashtrands_SnapjawsPlus_Snapjaw Technologer" Inherits="Snapjaw">
+    <part Name="Description" Short="Technology is =pronouns.possessive= strength, as an technologer  =pronouns.subjective= =verb:prepare:afterpronoun= modern tech to defend =pronouns.objective=self." />
+    <part Name="Render" DisplayName="Snapjaw Technologer" Tile="Ashtrands_SnapjawsPlus/snapjaw_technologer.png" ColorString="&amp;O" DetailColor="B" />
+    
+    <inventoryobject Blueprint="Vibro Dagger" Number="1" />
+    <inventoryobject Blueprint="Sandals" Number="1" />
+    <inventoryobject Blueprint="Arc Winder" Number="1" />
+    <inventoryobject Blueprint="Leather Cloak" Number="1" />
+
+    <skill Name="Short Blade"/>
+    <skill Name= "Pistol" />
+    <skill Name= "Pistol_DisarmingShot" />
+    <skill Name= "Pistol_WeakSpotter" />
+
+    <stat Name="Hitpoints" Value="20" />
+    <stat Name="DV" Value="5" />
+    <stat Name="Intelligence" sValue="23" />
+    <stat Name="Agility" sValue="20" />
+
+    <tag Name="DynamicObjectsTable:Snapjaws" />
+    
+   </object>
+   <object Name="Ashtrands_SnapjawsPlus_Snapjaw Duelist" Inherits="Snapjaw">
+   <part Name="Render" DisplayName="Snapjaw Duelist" Tile="Ashtrands_SnapjawsPlus/Snapjaw_duelist" ColorString="&amp;O" DetailColor="w" />
+
+   <inventoryobject Blueprint="Leather Cloak" Number="1" />
+   <inventoryobject Blueprint="Borderlands Revolver" Number="2" />
+   <inventoryobject Blueprint="Lead Slug" Number="100" />
+
+   <skill Name= "Pistol" />
+   <skill Name= "Pistol_Akimbo" />
+   <skill Name= "Pistol_FastestGun" />
+   <skill Name= "Pistol_DeadShot" />
+
+    <stat Name="Hitpoints" Value="20" />
+    <stat Name="DV" Value="5" />
+    <stat Name="Toughness" sValue="18" />
+    <stat Name="Agility" sValue="30" />
+
+   </object>
+
+   <object Name="Ashtrands_SnapjawsPlus_Snapjaw Psychic" Inherits="Snapjaw">
+   <part Name="Render" DisplayName="Snapjaw Psychic" Tile="Ashtrands_SnapjawsPlus/Snapjaw_psychic" ColorString="&amp;O" DetailColor="m" />
+
+   <inventoryobject Blueprint="Leather Cloak" Number="1" />
+   <inventoryobject Blueprint="Steel Kukri" Number="1" />
+
+   <mutation Name="MentalMirror" />
+   <mutation Name="SunderMind" />
+   <mutation Name="Teleportation" />
+   <mutation Name="Domination" />
+   <mutation Name="StunningForce" />
+
+   <stat Name="Hitpoints" Value="20" />
+   <stat Name="MA" Value="7" />
+   <stat Name="Willpower" sValue="20" />
+   <stat Name="Ego" sValue="25" />
+
+  </object>
+</objects>
