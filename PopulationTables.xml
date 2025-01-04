@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<populations>
+  <population Name="SnapjawParty0" Load="Merge">
+    <group Name="Creatures" Load="Merge">
+      <object Number="2" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Technologer" />
+      <object Number="2" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Duelist" />
+      <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Psychic" />
+    </group>
+  </population>
+
+  <population Name="SnapjawParty1" Load="Merge">
+    <group Name="Creatures" Load="Merge">
+      <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Technologer" />
+      <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Duelist" />
+       <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Psychic" />
+    </group>
+  </population>
+
+  <population Name="SnapjawParty1-with-Warlord" Load="Merge">
+    <group Name="Creatures" Load="Merge">
+      <object Number="3" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Technologer" />
+      <object Number="2" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Duelist" />
+       <object Number="2" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Psychic" />
+    </group>
+  </population>
+
+  <population Name="SnapjawParty0" Load="Merge">
+    <group Name="Creatures" Load="Merge">
+      <object Number="2" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Technologer" />
+      <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Duelist" />
+       <object Number="1" Blueprint="Ashtrands_SnapjawsPlus_Snapjaw Psychic" />
+    </group>
+  </population>
+</populations>
